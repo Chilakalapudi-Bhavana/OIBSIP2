@@ -1,0 +1,246 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    font-size:medium;
+    color:white;
+    background-color:white;
+
+}
+
+.outerdiv{
+height:500px;
+color:black;
+border-style:groove;
+border-color:rgb(237, 234, 234);
+border-radius: 50px 10px;
+}
+.innerdiv{
+width:400px;
+position:relative;
+border-color:rgb(128, 128, 128);
+left:35px;
+top:35px;
+height:400px;
+background-image: url(./Images/MyProfile.jpg);
+background-size:cover;
+border-radius:200px;
+border-color:white;
+border-style:groove;
+
+}
+.square{
+    height:350px;
+    width:570px;
+    border-radius: 50px;
+    border-color:white;
+    color: rgb(128, 128, 128);
+    border-style:groove;
+    border-radius: 50px 10px;
+    
+}
+.square:hover,.rectangle:hover,.description1:hover,.description2:hover,.rd:hover,.outerdiv:hover{
+    background-color:rgb(237, 234, 234);
+    color:black;
+}
+.s{
+    height:250px;
+    width:400px;
+    background-color: white;
+    position:relative;
+    left:80px;
+    top:-15px;
+    border-radius: 50px;
+}
+.rectangle{
+    height:700px;
+    width:500px;
+    border-radius: 50px;
+    border-color:white;
+    border-style:groove;
+    border-radius: 50px 10px;
+}
+.r{
+    height:500px;
+    width:400px;
+    background-color: white;
+    position:relative;
+    left:50px;
+    top:100px;
+    border-radius: 50px;
+    background-image: url(./Images/Interim\ Certificate.jpg);
+    background-size:cover;
+}
+.rd{
+        height:500px;
+        width:1200px;
+        color:rgb(128, 128, 128);
+        position:relative;
+        left:0px;
+        top:100px;
+        font-family:'Times New Roman', Times, serif;
+        font-size:xx-large;
+        border-color:rgb(209, 208, 208);
+        border-style:groove;
+        border-width: 5px;
+        border-radius: 50px 10px;
+}
+#s1{
+    background-image: url(./Images/c1.jpg);
+    background-size: cover;
+}
+#s2{
+    background-image: url(./Images/c2.jpg);
+    background-size: cover;  
+}
+#s3{
+    background-image: url(./Images/c3.jpg);
+    background-size: cover;
+}
+#s4{
+    background-image: url(./Images/c4.jpg);
+    background-size: cover;
+}
+#s5{
+    background-image: url(./Images/c5.jpg);
+    background-size:cover;
+}
+#s6{
+    background-image: url(./Images/c6.jpg);
+    background-size: cover;
+}
+#s7{
+    background-image: url(./Images/c7.jpg);
+    background-size: cover;
+}
+#s8{
+    background-image: url(./Images/c8.jpg);
+    background-size: cover;
+}
+#s9{
+    background-image: url(./Images/c9.jpg);
+    background-size: cover;
+}
+#s10{
+    background-image: url(./Images/c10.jpg);
+    background-size: cover;
+}
+#s11{
+    background-image: url(./Images/c11.jpg);
+    background-size: cover;
+}
+#s12{
+    background-image: url(./Images/c12.jpg);
+    background-size: cover;
+}
+
+button{
+    color: rgb(237, 234, 234);
+    background-color:black;
+    height: 20px;
+    width:200px;
+    border-radius:50px;
+    padding: 30px;
+    text-align: center;
+    font-weight: bolder;
+    font-size:large;
+    border-color:white;
+    border-style:groove;
+    
+  }
+  #icon{
+    height:150px;
+    width:150px;
+  }
+  button:hover{
+    background-color:darkblue;
+  }
+  .maindiv{
+    display: flex;
+    justify-content: space-between;
+  }
+.nextdiv{
+    height:400px;
+    width:1000px;
+    font-size: xx-large;
+    position:relative;
+    left:0px;
+    top:35px;
+}
+.div1{
+    height:200px;
+    
+}
+.header1{
+    width: 500px;
+    background-color:rgb(237, 234, 234);
+    color:black;   
+    height: 100px;
+    border-radius: 50px 10px;
+    border-color:white;
+    border-style:groove;
+  }
+.header2{
+    width: 500px;
+    background-color:rgb(237, 234, 234);
+    color: black;    
+    height: 100px;
+    border-radius: 50px 10px;
+    border-color:white;
+    border-style:groove;
+  }
+  .description1{
+    height:500px;
+    border-color:rgb(237, 234, 234);
+    color:rgb(128, 128, 128);
+    font-family:'Times New Roman', Times, serif;
+    font-size:xx-large;
+    border-radius: 50px 10px;
+    width:50%;
+    border-style: groove;
+}
+.description2{
+    height:500px;
+    color:rgb(128, 128, 128);
+    font-family:'Times New Roman', Times, serif;
+    font-size:xx-large;
+    border-radius: 50px 10px;
+    width:50%;
+    border-style: groove;
+}
+.desc{
+    height:500px;
+    color:rgb(128, 128, 128);
+    font-family:'Times New Roman', Times, serif;
+    font-size:xx-large;
+    border-radius: 50px 10px;
+    border-style: groove;
+    background-image: linear-gradient(to top,black,grey,white);
+}
+.image1{
+    width:50%;
+    height:500px;
+}
+#i1{
+    background-image: url(./Images/skills.jpg);
+    background-size: cover;
+}
+#i2{
+    background-image: url(./Images/education.jpg);
+    background-size: cover;
+}
+#i3{
+    background-image: url(./Images/acheivements.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#i4{
+    background-image: url(./Images/participation.jpg);
+    background-size: cover;
+}
+#i5{
+    background-image: url(./Images/group1.jpg);
+    background-size: cover;
+}
+#i6{
+    background-image: url(./Images/group2.jpg);
+    background-size: cover;
+}
